@@ -1,21 +1,23 @@
 h1{
-    color: aquamarine;
+    color: darkslateblue;
 }
 /* *{
     border: solid;
 } */
 .header{
-    background-color: beige;
+    background-color: bisque;
     border-color: chartreuse;
     display: flex;
     justify-content: space-between;
 }
 .grid{
+    background-color: bisque;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .footer{
+    background-color: bisque;
     display: flex;
     justify-content: flex-end;
 }
@@ -27,4 +29,10 @@ p{
     color: darkcyan ;
     font-size: medium;
     font-family: fantasy;
+}
+h2{
+    font-size: medium;
+    color: orchid;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
